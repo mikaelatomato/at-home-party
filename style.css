@@ -21,7 +21,7 @@ body {
 }
 
 .banner img {
-    width: 100%;
+    width: 500px;
     height: auto;
 }
 
@@ -41,7 +41,8 @@ header {
     top: 15px;
     left: 25px;
     color: var(--moriko-purple);
-    font-size: 30px;
+    font-size: 25px;
+
 }
 
 nav {
