@@ -1,3 +1,9 @@
+:root {
+    --background-blue: rgb(189, 211, 231);
+    --moriko-purple: rgb(118, 108, 170);
+    --shirt-pink: rgb(232, 140, 184);
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -23,6 +29,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .banner {
@@ -33,6 +40,27 @@ header {
     position: absolute;
     top: 15px;
     left: 25px;
-    color: rgb(118, 108, 170);
+    color: var(--moriko-purple);
     font-size: 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a,
+a:active,
+time {
+    color: var(--shirt-pink);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--moriko-purple);
 }
